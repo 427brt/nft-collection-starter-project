@@ -7,10 +7,13 @@ import { ethers } from "ethers";
 import React, { useEffect, useState } from "react";
 
 import twitterLogo from "./assets/twitter-logo.svg";
+import githubLogo from "./assets/github-logo.svg";
 import myEpicNft from "./utils/MyEpicNFT.json";
 
-const TWITTER_HANDLE = "ukiss42";
+const TWITTER_HANDLE = "";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
+const GITHUB_HANDLE = "427brt";
+const GITHUB_LINK = `https://github.com/${GITHUB_HANDLE}`;
 const OPENSEA_LINK = "";
 const TOTAL_MINT_COUNT = 50;
 
@@ -178,13 +181,13 @@ const App = () => {
             : renderMintUI()}
         </div>
         <div className="footer-container">
-          <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
+          <img alt="GitHub Logo" className="github-logo" src={githubLogo} />
           <a
             className="footer-text"
-            href={TWITTER_LINK}
+            href={GITHUB_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`built on @${TWITTER_HANDLE}`}</a>
+          >{`built on @${GITHUB_HANDLE}`}</a>
         </div>
       </div>
     </div>
