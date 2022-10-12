@@ -18,7 +18,7 @@ const OPENSEA_LINK = "";
 const TOTAL_MINT_COUNT = 50;
 
 // コトントラクトアドレスをCONTRACT_ADDRESS変数に格納
-const CONTRACT_ADDRESS = "0x3666B0aD1C2C2a49a00d091140A210B4fbf16dbf"; //再デプロイ時に変更必要 -> abiファイルの更新
+const CONTRACT_ADDRESS = "0xe1514301e92b3cea2b73DC2185E886811Aa95652"; //再デプロイ時に変更必要 -> abiファイルの更新
 
 const App = () => {
   // ユーザーのウォレットアドレスを格納するために使用する状態変数を定義します。
