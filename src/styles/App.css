@@ -124,5 +124,29 @@
   }
 }
 
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.text-orange-500 {
+  background: -webkit-linear-gradient(left, #ED213A, #93291E);
+  background-size: 100% 100%;
+  animation: gradient-animation 4s ease infinite;
+  margin-right: 500px;
+  margin-left: 500px;
+}
+
+.text-green-500 {
+  background: -webkit-linear-gradient(left, #7F7FD5, #2dc6bc);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  margin-right: 42%;
+  margin-left: 42%;
+  border-radius: 20px;
+}
+
+button:disabled {
+  background: grey;
+}
 
 
